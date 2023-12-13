@@ -5,3 +5,5 @@ git branch -D branch1
 git push origin --delete branch1
 git checkout -b branch1
 git init repo --bare
+docker run -d -p 9090:8080 -p 50000:50000 --name app ranjeet6/reponame
+docker ps -a
